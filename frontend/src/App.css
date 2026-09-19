@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  background: #000;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height:100vh;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  border-bottom: 1px solid #222
+}
+
+.logo {
+  margin: 0;
+  color:#d8d8d8;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav {
+   display: flex;
+   gap: 28px;
+}
+
+.nav a {
+  color: #888;
+  text-decoration: none;
+  font-size:14px;
+}
+
+.nav a:hover {
+   color:#f5f5f5;
+}
+
+.main-content {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  padding: 90px 48px;
+}
+
+.hero {
+  align-items: center;
+
+  max-width:650px;
+  margin-bottom: 80px;
+}
+
+.eyebrow {
+  margin-bottom: 16px;
+  color: #666;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.hero h2 {
+  margin: 0;
+
+  font-size: 64px;
+  font-weight: 500;
+  
+  color: #d8d8d8;
+
+  letter-spacing: -2px;
+}
+
+.hero-text {
+  margin-top: 20px;
+  color: #888;
+  font-size: 18px;
+}
+
+.practice-button {
+  margin-top: 32px;
+  padding: 14px 22px;
+  background: #f5f5f5;
+  border: none;
+  border-radius: 6px;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.practice-button:hover {
+  background:#d8d8d8;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 16px;
+  margin-bottom: 80px;
+}
+
+.stats-card {
+  padding: 28px;
+  border: 1px solid #222;
+  border-radius: 8px;
+}
+
+.stat-card p {
+  margin: 0 0 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.stat-card strong {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.practice-card {
+   padding: 32px;
+   border: 1px solid #222;
+   border-radius: 8px;
+}
+
+.practice-card h3 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.practice-card p:last-child {
+  margin: 0;
+  color: #777;
+  line-height: 1.6;
+}
